@@ -11,6 +11,7 @@ class Book(Base):
     isbn = Column(String)
     year = Column(Integer)
     user_id = Column(Integer, ForeignKey('user.id'))
+    user = relationship("User", back_populates="books")
     public = Column(Boolean)
 
     def __repr__(self) -> str:
@@ -27,6 +28,7 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     email = Column(String)
     password = Column(String)
+    books = relationship("Book", back_populates="user")
 
     def __repr__(self) -> str:
         return f"<Page(number={self.number}, book='{self.book.title}')>"
