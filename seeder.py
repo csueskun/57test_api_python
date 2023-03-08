@@ -8,8 +8,8 @@ session = Session()
 def seed():
     # A tuple of book data to be added to the database
     users_data = (
-        ('csueskun@gmail.com', '123'),
-        ('user@57blocks.com', '123'),
+        ('csueskun@gmail.com', '@1234567Ab'),
+        ('user@57blocks.com', '#1234567Cd'),
     )
     users = []
     for user_ in users_data:
@@ -18,7 +18,7 @@ def seed():
 
     # A tuple of book data to be added to the database
     book_data = (
-        ('Don Quixote', 'Miguel de Cervantes', '978-0060934347', '978-0060934347', 1605),
+        ('Don Quixote', 'Miguel de Cervantes', '978-0060934347', 1605),
         ('One Hundred Years of Solitude', 'Gabriel Garcia Marquez', '978-0060883287', 1967),
         ('The Odyssey', 'Homer', '978-0140268867', 1488),
         ('The Brothers Karamazov', 'Fyodor Dostoevsky', '978-0374528379', 1880),
