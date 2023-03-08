@@ -4,7 +4,7 @@ from app.server.request_handler import RequestHandler
 # Defining a main function to start the server
 def main():
     # Defining the port number that the server should listen on
-    port = 8000
+    port = 9000
     
     # Creating a tuple containing the server's address (an empty string means listen on all available network interfaces)
     server_address = ('', port)
