@@ -69,4 +69,5 @@ python -m pytest tests/
 #### Url:
 affbbbd3048d448e3bb8c79810eeb59b-858609290.us-west-2.elb.amazonaws.co
 
-[/Books/](affbbbd3048d448e3bb8c79810eeb59b-858609290.us-west-2.elb.amazonaws.com/books/)
+Example:
+[/Books/](http://affbbbd3048d448e3bb8c79810eeb59b-858609290.us-west-2.elb.amazonaws.com/books/)
