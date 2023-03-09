@@ -56,4 +56,17 @@ With project running on port 8000
 python -m pytest tests/
 ```
 
+### 7. Initial user data
 
+| Id | Email                   | Password          |
+|----| -----                   | --------          |
+| 5  | user@57blocks.com       | @1234567Ab        |
+| 6  | csueskun@gmail.com      | #1234567Cd        |
+
+
+### 8. AWS hosting data
+
+#### Url:
+affbbbd3048d448e3bb8c79810eeb59b-858609290.us-west-2.elb.amazonaws.co
+
+[/Books/](affbbbd3048d448e3bb8c79810eeb59b-858609290.us-west-2.elb.amazonaws.com/books/)
